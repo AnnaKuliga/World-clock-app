@@ -24,6 +24,19 @@ function updateTime() {
     "h:mm:ss [<small>]A[</small>]"
   );
 }
+
+// Buenos Aires
+let buenosAiresElement = document.querySelector("#buenos-aires");
+if (buenosAiresElement) {
+let buenosAiresDateElement = buenosAiresElement.querySelector(".date");
+let buenosAiresTimeElement = buenosAiresElement.querySelector(".time");
+let buenosAiresTime = moment().tz("America/Argentina/Buenos_Aires");
+
+buenosAiresDateElement.innerHTML = buenosAiresTime.format("MMMM Do, YYYY");
+buenosAiresTimeElement.innerHTML = buenosAiresTime.format(
+  "h:mm:ss [<small>]A[</small>]"
+);
+}
 }
 
 function updateCity (event) {
@@ -44,11 +57,13 @@ function updateCity (event) {
         <div class="time">${cityTime.format("h:mm:ss")}<small>${cityTime.format("A")}</small></div>
       </div>
   `
+
 }
 
 
 updateTime();
 setInterval(updateTime, 1000);
+
 
 let citiesSelectElement = document.querySelector("#city");
 citiesSelectElement.addEventListener("change", updateCity)
