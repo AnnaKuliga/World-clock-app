@@ -9,7 +9,12 @@ a:hover {
   color: blue;
 }
 body {
-  background-color: #f9f7fe;
+  background-color: rgba(148,240,255,255);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/702/original/cute-earth-mascot-character-save-earth-cartoon-icon-illustration-free-vector.jpg?1670329359);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-size: 700px;
   font-family: sans-serif;
   margin: 15px 0;
 }
@@ -30,9 +35,9 @@ select {
   padding: 10px;
 }
 .container {
-  background: white;
+  background: rgba(255, 255, 255, 0.329);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
-  border-radius: 50%;
+  border-radius: 10%;
   margin: 60px auto;
   max-width: 60%;
   padding: 100px;
