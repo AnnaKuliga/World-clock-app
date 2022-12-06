@@ -56,7 +56,8 @@ function updateCity (event) {
 
         <div class="time">${cityTime.format("h:mm:ss")}<small>${cityTime.format("A")}</small></div>
       </div>
-      <a href="/"> Homepage </a>
+      <a href="/"> <small>🏠 Homepage</small> </a> <br/>
+      <a href="https://stunning-madeleine-30c4b5.netlify.app" target="_blank" class="weatherApp"> <small>🌞 Check the weather</small> </a>
   `
 
 }
