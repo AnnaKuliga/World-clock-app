@@ -11,6 +11,7 @@ a:hover {
 body {
   background-color: #f9f7fe;
   font-family: sans-serif;
+  margin: 15px 0;
 }
 h1 {
   font-size: 36px;
@@ -22,7 +23,8 @@ h2 {
 }
 select {
   display: block;
-  width: 100%;
+  margin: auto;
+  width: 80%;
   font-size: 18px;
   border-radius: 4px;
   padding: 10px;
@@ -30,17 +32,17 @@ select {
 .container {
   background: white;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
-  border-radius: 10px;
+  border-radius: 50%;
   margin: 60px auto;
-  max-width: 600px;
-  padding: 30px;
+  max-width: 60%;
+  padding: 100px;
 }
 .city {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 .city:last-child {
   border: none;
@@ -49,8 +51,13 @@ select {
   font-size: 16px;
   opacity: 0.7;
 }
+.homepage {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+}
 .time {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: bold;
 }
 
@@ -62,4 +69,5 @@ select {
 .weatherApp {
   display: block;
   margin: 0 auto;
+  padding: 5px;
 }
