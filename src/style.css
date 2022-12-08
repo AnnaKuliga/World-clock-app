@@ -1,11 +1,3 @@
-footer {
-  color: rgba(0, 0, 0, 0.8);
-  text-decoration: none;
-  font-size: 18px;
-  text-align: left;
-  margin-left: 150px;
-  margin-bottom: 30px;
-}
 a{
   color: rgba(0, 0, 0, 0.8);
   font-size: 18px;
@@ -25,13 +17,26 @@ body {
   margin: 40px 0 auto;
   max-width: 90%;
 }
+footer {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
 h1 {
-  font-size: 36px;
+  color: rgb(53, 47, 47);
+  font-size: 40px;
   text-align: center;
 }
 h2 {
+  color: rgb(53, 47, 47);
   margin: 0 0 5px;
   font-size: 25px;
+}
+i {
+  font-size: 20px;
 }
 select {
   display: block;
@@ -61,6 +66,7 @@ select {
 }
 .date {
   font-size: 16px;
+  margin-bottom: 5px;
   opacity: 0.7;
 }
 .homepage {
@@ -69,6 +75,7 @@ select {
   padding: 5px;
 }
 .time {
+  color: rgb(53, 47, 47);
   font-size: 38px;
   font-weight: bold;
 }
@@ -78,7 +85,8 @@ select {
   line-height: 36px;
   vertical-align: middle;
 }
-.weatherApp {
+.weatherApp,
+.homepage {
   display: block;
   margin: 0 auto;
   padding: 25px;
