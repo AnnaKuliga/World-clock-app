@@ -1,4 +1,4 @@
-a{
+a {
   color: rgba(0, 0, 0, 0.8);
   font-size: 18px;
   text-decoration: none;
@@ -7,7 +7,7 @@ a:hover {
   color: blue;
 }
 body {
-  background-color: rgba(148,240,255,255);
+  background-color: rgba(148, 240, 255, 255);
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/702/original/cute-earth-mascot-character-save-earth-cartoon-icon-illustration-free-vector.jpg?1670329359);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -49,10 +49,10 @@ select {
 .container {
   background: rgba(255, 255, 255, 0.329);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
-  border-radius: 60%;
+  border-radius: 20%;
   margin: 60px 150px 60px 20px;
-  max-width: 45%;
-  padding: 50px;
+  max-width: 60%;
+  padding: 20px;
 }
 .city {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
@@ -67,12 +67,17 @@ select {
 .date {
   font-size: 16px;
   margin-bottom: 5px;
+  margin-left: 68px;
   opacity: 0.7;
 }
 .homepage {
   display: block;
   margin: 0 auto;
   padding: 5px;
+}
+img {
+  max-width: 50px;
+  margin: 0 5px 0;
 }
 .time {
   color: rgb(53, 47, 47);
@@ -92,4 +97,3 @@ select {
   padding: 25px;
   text-align: center;
 }
-
