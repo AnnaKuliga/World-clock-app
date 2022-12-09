@@ -11,8 +11,8 @@ body {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/373/original/cute-earth-mascot-character-save-earth-cartoon-icon-illustration-free-vector.jpg?1670589644);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: top right;
-  background-size: 400px;
+  background-position: bottom right;
+  background-size: 650px;
   font-family: sans-serif;
   margin: 20px 0 auto;
   max-width: 90%;
@@ -20,8 +20,8 @@ body {
 footer {
   color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
+  text-align: center;
   font-size: 18px;
-  margin-left: 240px;
   margin-bottom: 30px;
   margin-top: 20px;
 }
@@ -53,7 +53,7 @@ select {
   border-radius: 40%;
   margin-left: 15px;
   max-width: 60%;
-  padding: 60px;
+  padding: 70px;
 }
 .city {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
@@ -101,6 +101,6 @@ img {
 .homepage {
   display: block;
   margin: 0 auto;
-  padding: 25px;
+  padding: 5px;
   text-align: center;
 }
