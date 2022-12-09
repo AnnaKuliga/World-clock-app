@@ -50,6 +50,18 @@ function updateTime() {
       "h:mm:ss [<small>]A[</small>]"
     );
   }
+  // Troll
+  let trollElement = document.querySelector("#troll");
+  if (trollElement) {
+    let trollDateElement = trollElement.querySelector(".date");
+    let trollTimeElement = trollElement.querySelector(".time");
+    let trollTime = moment().tz("Antarctica/Troll");
+
+    trollDateElement.innerHTML = trollTime.format("MMMM Do, YYYY");
+    trollTimeElement.innerHTML = trollTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
 }
 
 function updateCity(event) {
