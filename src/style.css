@@ -12,8 +12,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom right;
-  background-size: 650px;
-  font-family: sans-serif;
+  background-size: 410px;
+  font-family: "Raleway", sans-serif;
   margin: 20px 0 auto;
   max-width: 90%;
 }
@@ -50,7 +50,7 @@ select {
 .container {
   background: rgba(255, 255, 255, 0.329);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
-  border-radius: 40%;
+  border-radius: 10%;
   margin-left: 15px;
   max-width: 60%;
   padding: 70px;
